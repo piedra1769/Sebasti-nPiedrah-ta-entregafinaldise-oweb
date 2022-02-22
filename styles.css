@@ -14,3 +14,11 @@ footer .row {
 footer .row div ul{
     list-style: none;
 }
+
+.card-body {
+    background-color: rgb(205, 230, 230);
+}
+
+.btn {
+    background-color: green;
+}
