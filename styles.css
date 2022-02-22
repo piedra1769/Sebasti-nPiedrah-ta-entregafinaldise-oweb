@@ -1,0 +1,16 @@
+
+
+body{
+    margin-bottom: 0;
+}
+
+
+
+
+footer{
+    bottom: 0;
+}
+
+footer .row div ul{
+    list-style: none;
+}
