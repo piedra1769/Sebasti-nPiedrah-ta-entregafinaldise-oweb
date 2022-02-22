@@ -18,51 +18,118 @@
 
 <body>
     
-  <div class="container">
-    <header>
-      <div class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-      <img class="bi me-2" src="../imagenes/logo1.png"  width="200" height="auto" href="../index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="../index.html" class="nav-link active" aria-current="page">Home</a></li>
-        <li class="nav-item"><a href="../pages/nacionales.html" class="nav-link">Nacionales</a></li>
-        <li class="nav-item"><a href="../pages/internacional.html" class="nav-link">Internacionales</a></li>
-        <li class="nav-item"><a href="../pages/cruceros.html" class="nav-link">Cruceros</a></li>
-        <li class="nav-item"><a href="../pages/cotiza.html" class="nav-link">Cotiza</a></li>
-      </ul>
-    </header>
-  </div>
-        
-  <nav>
-
-  </nav>
-
-  <main>
-
-  </main>
-
-  <aside>
-
-  </aside>
-
-  <div class="footer-zone">
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      <p class="col-md-4 mb-0 text-muted">&copy; Turismo Coogranada</p>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="logo"><img class="bi me-2" src="../imagenes/logo1.png"  width="200" height="auto" href="../index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"></div>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/nacionales.html">Nacionales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/internacional.html">Internacionales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/cruceros.html">Cruceros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/cotiza.html">Cotiza</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+   
+  <section>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../imagenes/mexico.jpg" class="d-block w-100" alt="México">
+        </div>
+        <div class="carousel-item">
+          <img src="../imagenes/paris.jpg" class="d-block w-100" alt="europa paris">
+        </div>
+        <div class="carousel-item">
+          <img src="../imagenes/peru.jpg" class="d-block w-100" alt="Perú">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
   
-      <a href="../index.html"  class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-        <img src="../imagenes/logo2.png" class="bi me-2" width="50" height="auto">
+  <section class="container-fluid p-4">  
+    <div class="row gy-3 row-cols-1 row-cols-md-3 row-cols-lg-4 justify-content-evenly">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+      
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+      
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+  
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+      
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <footer class="container-fluid">
+    <div class="row">
+      <a href="../index.html"  class="col-12 col-md-6 col-lg-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <img src="../imagenes/logo2.png" class="bi me-2" width="200" height="auto">
       </a>
   
-      <ul class="nav col-md-4 justify-content-end">
-        <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Home</a></li>
-        <li class="nav-item"><a href="./pages/nacionales.html" class="nav-link px-2 text-muted">Nacionales</a></li>
-        <li class="nav-item"><a href="./pages/internacional.html" class="nav-link px-2 text-muted">Internacionales</a></li>
-        <li class="nav-item"><a href="./pages/cruceros.html" class="nav-link px-2 text-muted">Cruceros</a></li>
-        <li class="nav-item"><a href="./pages/cotiza.html" class="nav-link px-2 text-muted">Cotiza</a></li>
-      </ul>
-    </footer>
-  </div>
+      <div class=" col-12 col-md-6 col-lg-4 text-center">
+        <h4>Mapa del sitio</h4>
+        <ul>
+          <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="./nacionales.html" class="nav-link px-2 text-muted">Nacionales</a></li>
+          <li class="nav-item"><a href="./internacional.html" class="nav-link px-2 text-muted">Internacionales</a></li>
+          <li class="nav-item"><a href="./cruceros.html" class="nav-link px-2 text-muted">Cruceros</a></li>
+          <li class="nav-item"><a href="./cotiza.html" class="nav-link px-2 text-muted">Cotiza</a></li>
+        </ul>
+  
+      </div>
+    </div>
+  </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 

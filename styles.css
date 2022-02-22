@@ -1,14 +1,14 @@
 
-
 body{
     margin-bottom: 0;
 }
 
-
-
-
 footer{
     bottom: 0;
+}
+
+footer .row {
+    background-color: rgba(193, 235, 235, 0.938);
 }
 
 footer .row div ul{
